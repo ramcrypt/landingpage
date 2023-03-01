@@ -29,6 +29,15 @@ h1 {
   font-size: 55px;
   line-height: 59.76px;
 }
+@media (min-width:768px) {
+    font-size: 18px;
+}
+@media (min-width:1024px) {
+    font-size: 19px;
+}
+@media (min-width:1280px) {
+    font-size: 20px;
+}
 
 /*---- Main Section Starts ------*/
 
@@ -1753,7 +1762,7 @@ label {
       50% {
           opacity: 0;
       }
-  
+
   }
   .footer-container {
     padding: 24px;
@@ -2301,7 +2310,7 @@ label {
 }
 .vision-container .particle {
   top: 50px;
- 
+
 }
 .faq-image>.MuiBox-root {
   padding-top: 0;
@@ -2339,7 +2348,7 @@ label {
     left: -25px;
   }
 
- 
+
 
   .blink{
     font-style: normal;
@@ -2363,7 +2372,7 @@ label {
       50% {
           opacity: 0;
       }
-  
+
   }
 
   /* .team-inner h2 span:after {
